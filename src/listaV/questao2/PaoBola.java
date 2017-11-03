@@ -1,0 +1,9 @@
+package listaV.questao2;
+
+public class PaoBola implements Pao{
+
+	@Override
+	public String descricao() {
+		return "Pão bola";
+	}
+}
