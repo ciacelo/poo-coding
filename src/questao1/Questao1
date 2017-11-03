@@ -1,0 +1,15 @@
+1) Uma técnica de programação para introduzirmos os
+padrões Factory, ele encapsula a criação de objetos, permite interfaces para criar objetos sem
+expor a criação lógica ao cliente, sendo assim, não é um padrão!
+
+2) Ele encapsula a criação de objetos, mas neste padrão a criação de objetos e as subclasses que
+decidem quais objetos criarem, ele definem uma inteface para criação de objetos e as
+classes decidem quais as suas instâncias.
+
+3) Quando queremos encapsular o código que cria objetos, para solucionar casos de classes que instanciam classes concretas, 
+e podemos encapsular essecomportamento de instanciação, quando basicamente buscamos ter nosso código de criação em um
+único objeto
+
+4)Basicamente Criamos classes abstratas, que possibilitam as classes 
+concretas, que herdam, instanciarem de acordo com suas peculiaridades, onde na classe Factory criamos o 
+produto através do metodo de criação.

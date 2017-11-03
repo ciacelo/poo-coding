@@ -1,0 +1,11 @@
+1) Define uma interface para criar uma família de objetos relacionados ou dependentes e
+que não especificam suas classes concretas, uma interface para cada tipo de criação
+
+2) Quando necessário lidar com a criação de uma família de objetos que se faz necessário a crianção de uma interface para representa-las.
+independente na criação de seus produtos e também quando um certo sistema tem que se configurar
+com uma família entre várias famílias de produtos, e quando queremos fornecer uma biblioteca de
+classes e queremos apenas revelar sua interface e não sua implementação.
+
+3) Nesse caso criamos as interfaces Factory, responsavel por representar a família dos produtos a serem criados, em seguida,
+ um interface Factory de creação para os objetos da família da interface Factory dos produtos. Depois criamos uma classe abstract Factory
+  que será nela onde instanciaremos o Factory de criação e os Factorys produtos, e nele criamos um metodo absctract de criação do objeto local. 
